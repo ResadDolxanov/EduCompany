@@ -1,0 +1,418 @@
+/* ----------------------------------------------------------All Content------------------------------------------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+ion-icon{
+    font-size: 50px;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+/* --------------------------------------------------------------Header Content-------------------------------------------------------------------- */
+header{
+    background-color: rgb(114, 220, 114);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    border-radius: 24px 24px 0 0 ;
+    margin-top: 20px;
+}
+
+.header_one h6,.header_two h6,.header_three h6{
+    font-size: 16px;
+}
+
+
+.header_two,.header_three,.header_four{
+    display: flex;
+    gap: 5px;
+}
+
+.header_two div,.header_three div{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_four ion-icon{
+    font-size: 30px;
+}
+
+.header_four div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_four div:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+
+/* -------------------------------------------------------------Section Navbar----------------------------------------------------------- */
+
+.navbar_main{
+    background-color: rgb(95, 160, 95);
+    padding: 20px;
+    display: flex;
+}
+
+.navlogo{
+    width: 5%;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.253);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 24px 0 0 24px;
+    padding: 10px;
+    width: 80%;
+    color: white;
+}
+
+
+
+.navright{
+    width: 20%;
+    height:74px;
+    background-color: rgb(118, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navbar_main ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.navbar_main ul li {
+    font-size: 24px;
+}
+
+/* ---------------------------------------------------------Slider Section----------------------------------------------------- */
+.slider_section{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/lesson.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.quession{
+    width: 20%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.463);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+
+}
+
+.slider_section .call,.message{
+    display: flex;
+    color: white;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(118, 218, 218);
+    width: 80%;
+    padding: 6px;
+    border-radius: 8px;
+
+}
+
+
+.slider_section h4{
+    font-size: 42px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.slider_section .call h6{
+    font-size: 26px;
+    color: white;
+}
+
+.slider_section .message h6{
+    font-size: 26px;
+    color: white;
+}
+
+.slider_section ion-icon{
+    font-size: 32px;
+}
+
+/* ----------------------------------------------------------NeW Menu----------------------------------------- */
+.new_menu{
+    position: relative;
+    bottom: 95px;
+}
+
+
+.new_menu_main div{
+    width: 16%;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.new_menu_main div:nth-child(1){
+    background-color: greenyellow;
+}
+.new_menu_main div:nth-child(2){
+    background-color: rgb(33, 132, 99);
+}
+.new_menu_main div:nth-child(3){
+    background-color: rgb(92, 92, 171);
+}
+.new_menu_main div:nth-child(4){
+    background-color: blue;
+}
+.new_menu_main div:nth-child(5){
+    background-color: violet;
+}
+.new_menu_main div:nth-child(6){
+    background-color: rgb(235, 78, 104);
+}
+
+
+.new_menu_main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.new_menu_main h4{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.new_menu_main ion-icon{
+    font-size: 64px;
+}
+/*------------------------------------saheler------------*/
+
+.saheler ion-icon{
+    color: black;
+    font-size: 100px;
+    color: aqua;
+   
+}
+.saheler div{
+    width: 400px;
+    height: 300px;
+    background-color:white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.saheler{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+    gap: 50px;
+}
+.saheler div h3{
+    text-align: center;
+    font-size: 40px;
+   
+}
+.saheler_main h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    padding: 20px;
+   
+}
+.saheler_main{
+    background-color: azure;
+}
+.saheler_main :hover{
+    
+    background-color:cadetblue;
+    transition: 0.3sn;
+}
+.saheler_main h1:hover{
+    background-color: azure;
+}
+/*-- --------------------------------------xidmetler--------------------------*/
+.xidmetler{
+    width: 300px;
+    height: 60px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    border-radius: 12px;
+    background-color:darkcyan;
+}
+/*-- --------------------------------------sinaq_imtahanlari--------------------------*/
+.sinaq_one{
+    background: rgb(127,67,138);
+    background: linear-gradient(90deg, rgba(127,67,138,1) 0%, rgba(126,19,95,1) 22%, rgba(126,19,95,1) 43%, rgba(126,19,104,0.896796218487395) 64%);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 500px;
+    margin-top: 20px;
+ 
+}
+.left{
+    color: azure;
+    margin-left: 30px;
+}
+.sinaq h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+    
+}
+.left div{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.one_link h3{
+    background-color: gold;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 25px;
+   
+    
+}
+.one_link h4{
+    font-size: 25px;
+}
+.two_link h3{
+    background-color: gold;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 150px;
+  
+}
+.two_link h4{
+    font-size: 25px;
+}
+.two_link{
+    margin-top: 10px;
+}
+.one_link{
+    margin-bottom: 10px;
+}
+img{
+    width: 500px;
+    height: 400px;
+}
+
+
+/*--------------------------------------xeberler---------------------------------------*/
+.xeberler_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: darkcyan;
+    margin-top: 50px;
+}
+
+
+.xeberler{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+
+.xeberler img{
+    width: 400px;
+    height: 300px;
+}
+ 
+
+.xeberler h2{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+.xeberler h3 {
+    width: 140px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+    border-radius: 8px;
+}
+/* --------------------------------------part------------------------------ */
+
+.part{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: darkcyan;
+}
+.partnyor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.partnyor img{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+
+
+
